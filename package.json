@@ -1,7 +1,12 @@
 {
-  "name": "maluva-pairing-web",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
-  "dependencies": { "next": "^14.2.0", "react": "^18.3.1", "react-dom": "^18.3.1" }
+  "name": "maluva-md-bot",
+  "version": "3.0.0",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "express": "^4.19.2",
+    "pino": "^9.0.0"
+  }
 }
